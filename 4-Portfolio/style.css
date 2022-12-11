@@ -1,0 +1,46 @@
+.header {
+    height: 600px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), radial-gradient(86.34% 86.34% at 69.24% 0%, #F3A8FF 0%, #FFB3CA 0.01%, rgba(185, 255, 200, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(110.5% 110.5% at 21.63% 0%, #9AB8FF 0%, rgba(169, 255, 240, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(86.46% 96.77% at 56.53% 107.7%, #A8FFE0 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(196, 196, 196, 0.1);
+
+}
+
+.project-list {
+    list-style-type: none;
+}
+
+.project h6{
+    font-size: 20px;
+}
+
+.project p {
+    max-width: 520px;
+    font-size: 24px;
+    margin-bottom: 290px;
+}
+
+.project-text {
+    display: inline-block;
+    width: 600px;
+}
+
+.project img {
+    opacity: 0.4;
+}
+
+.project a {
+    color: black;
+}
+
+.project {
+    padding: 40px 0;
+    border-bottom: 3px solid black;
+    max-width: 1210px;
+}
+
+.project:hover img {
+    opacity: 1;
+}
+
+.project img:hover {
+    box-shadow: 0 0 60px 15px rgba(0, 0, 0, 0.5);
+}
