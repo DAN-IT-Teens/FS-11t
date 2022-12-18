@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     height: 600px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), radial-gradient(86.34% 86.34% at 69.24% 0%, #F3A8FF 0%, #FFB3CA 0.01%, rgba(185, 255, 200, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(110.5% 110.5% at 21.63% 0%, #9AB8FF 0%, rgba(169, 255, 240, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(86.46% 96.77% at 56.53% 107.7%, #A8FFE0 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(196, 196, 196, 0.1);
@@ -5,6 +9,12 @@
     /* flex-direction: column;
     justify-content: flex-end; */
     align-items: flex-end;
+}
+
+.header h1 {
+    margin: 60px 120px;
+    font-size: 60px;
+    line-height: 80px;
 }
 
 .header-project {
@@ -27,6 +37,7 @@ body {
 }
 
 .project-list {
+    margin: 100px 120px;
     list-style-type: none;
 }
 
@@ -41,6 +52,7 @@ body {
 
 .project-text {
     display: flex;
+    gap: 40px;
     flex-direction: column;
     width: 600px;
 }

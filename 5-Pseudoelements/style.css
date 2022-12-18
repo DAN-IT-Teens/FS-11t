@@ -1,0 +1,29 @@
+p::selection {
+    color: white;
+    background: green;
+}
+
+p::first-letter {
+    font-size: 70px;
+}
+
+p::first-line {
+    color: red;
+}
+
+p{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 100px;
+    overflow: auto;
+}
+
+p::before {
+    content: "TEST";
+    color: green;
+}   
+
+p::after{
+    content: 'AFTER';
+    font-size: 20px;
+}
