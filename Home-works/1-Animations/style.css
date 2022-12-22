@@ -1,0 +1,15 @@
+.field{
+    padding: 10px;
+    margin: 0 auto;
+    border: 2px solid green;
+    width: 800px;
+    height: 300px;
+    background-color: rgb(115, 171, 31);
+}
+
+.snake {
+    width: 75px; /* 200px */
+    height: 50px;
+    background-color: green;
+    border-radius: 50px;
+}
