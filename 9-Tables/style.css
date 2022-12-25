@@ -1,0 +1,37 @@
+table {
+    border: 2px solid black;
+    /* border-collapse: collapse; */
+}
+
+td, th {
+    padding: 10px 20px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+thead {
+    background-color: grey;
+    color: white;
+}
+
+caption {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.items {
+    background-color: brown;
+}
+
+.another-items {
+    background-color: blueviolet;
+}
+
+.four-item {
+    background-color: orange;
+}
+
+.fifth-item{
+    background-color: orangered;
+}

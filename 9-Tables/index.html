@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tables</title>
+</head>
+<body>
+    <table>
+        <caption>Розклад</caption>
+        <colgroup>
+            <col span="2" class="items">
+            <col class="another-items">
+            <col class="four-item">
+            <col class="fifth-item">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Понеділок</th>
+                <th>Вівторок</th>
+                <th>Середа</th>
+                <th>Четверг</th>
+                <th>Пʼятниця</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Математика</td>
+                <td rowspan="2">Біологія</td>
+                <td>Анлійська мова</td>
+                <td>Інформатика</td>
+            </tr>
+            <tr>
+                <td>Англійська Мова</td>
+                <td>Інформатика</td>
+                <td>Математика</td>
+                <td>Хімія</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
